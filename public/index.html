@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Resume Header</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+          background: #f4f4f4;
+          padding: 20px;
+        }
+
+        .biography {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .name-title {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .name {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .title {
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        .contact {
+            text-align: right;
+            font-size: 0.75em;
+        }
+
+        .contact a {
+            color: #007bff;
+        }
+
+        .separator {
+            height: 5px;
+            background: #ffcc00;
+        }
+
+        .section {
+            display: flex;
+            padding: 20px;
+        }
+
+        .section-title {
+            font-style: italic;
+            font-weight: bold;
+            width: 20%;
+            min-width: 150px;
+        }
+
+        .section-text {
+            width: 80%;
+        }
+
+        .subheader {
+            font-weight: bold;
+            padding-bottom: 10px;
+        }
+
+        .spacer {
+          padding: 10px;
+        }
+
+        .skills-list {
+            display: flex;
+            width: 80%;
+            gap: 40px;
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+      <div class="biography">
+          <div class="name-title">
+              <div class="name">Zh Rimel</div>
+              <div class="title">Data Scientist</div>
+          </div>
+          <div class="contact">
+              <div>Email: <a href="mailto:abc@gmail.com">abc@gmail.com</a></div>
+              <div>Web: abc.github.io/abc</div>
+              <div>Mobile: 01234567890</div>
+          </div>
+      </div>
+      <div class="spacer"></div>
+    </div>
+
+    <div class="separator"></div>
+
+    <div class="section">
+      <div class="section-title">Personal Profile</div>
+      <div class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Work Experience</div>
+      <div class="section-text">
+        <div class="subheader">Job Title at Company (August 2022 - December 2023)</div>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          nisi ut aliquip ex ea commodo consequat.</div>
+        <div class="spacer"></div>
+        <div class="subheader">Job Title 2 at Company 2 (August 2020 - December 2021)</div>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          nisi ut aliquip ex ea commodo consequat.</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Key Skills</div>
+      <div class="skills-list">
+        <div class="column">
+          <div>A Key skill</div>
+          <div>A Key skill</div>
+          <div>A Key skill</div>
+        </div>
+        <div class="column">
+          <div>A Key skill</div>
+          <div>A Key skill</div>
+          <div>A Key skill</div>
+        </div>
+        <div class="column">
+          <div>A Key skill</div>
+          <div>A Key skill</div>
+          <div>A Key skill</div>
+        </div>
+      </div>
+    </div>
+
+  <div class="section">
+    <div class="section-title">Education</div>
+    <div class="section-text">
+      <div class="subheader">New Jersey Institute of Technology</div>
+      <div>BS in Computer Science</div>
+      <div>2018 - 2022</div>
+      <div>GPA: 3.9</div>
+      <div class="spacer"></div>
+      <div class="subheader">New Jersey Institute of Technology</div>
+      <div>MS in Computer Science</div>
+      <div>2022 - 2023</div>
+      <div>GPA: 4.0</div>
+      <div></div>
+    </div>
+  </div>
+
+</body>
+</html>
