@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+.biography {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 1.1em;
+    color: #333;
+}
+
+.contact {
+    text-align: right;
+    font-size: 0.75em;
+}
+
+.contact a {
+    color: #007bff;
+}
+
+.separator {
+    height: 5px;
+    background: #ffcc00;
+}
+
+.section {
+    display: flex;
+    padding: 20px;
+}
+
+.section-title {
+    font-style: italic;
+    font-weight: bold;
+    width: 20%;
+    min-width: 150px;
+}
+
+.section-text {
+    width: 80%;
+}
+
+.subheader {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.spacer {
+    padding: 10px;
+}
+
+.skills-list {
+    display: flex;
+    width: 80%;
+    gap: 40px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5px;
+}
